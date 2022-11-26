@@ -1,4 +1,3 @@
-
 *,
 *::before,
 *::after {
@@ -18,17 +17,14 @@ dd {
   margin: 0;
 }
 
-
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
-
 
 html:focus-within {
   scroll-behavior: smooth;
 }
-
 
 body {
   min-height: 100vh;
@@ -36,18 +32,15 @@ body {
   line-height: 1.5;
 }
 
-
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
-
 
 img,
 picture {
   max-width: 100%;
   display: block;
 }
-
 
 input,
 button,
@@ -56,12 +49,11 @@ select {
   font: inherit;
 }
 
-
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {

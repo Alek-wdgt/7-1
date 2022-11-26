@@ -1,0 +1,30 @@
+h1,
+.h1 {
+  @include min-width(desktop) {
+  }
+}
+h2,
+.h2 {
+  @include min-width(desktop) {
+  }
+}
+h3,
+.h3 {
+  @include min-width(desktop) {
+  }
+}
+h4,
+.h4 {
+  @include min-width(desktop) {
+  }
+}
+h5,
+.h5 {
+  @include min-width(desktop) {
+  }
+}
+h6,
+.h6 {
+  @include min-width(desktop) {
+  }
+}
